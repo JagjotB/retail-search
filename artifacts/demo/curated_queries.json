@@ -1,0 +1,2312 @@
+[
+  {
+    "query_id": "53486",
+    "query": "instax camera film",
+    "baseline_ndcg_at_10": 0.505733256851996,
+    "reranker_ndcg_at_10": 0.6931491356327787,
+    "relative_gain": 0.37058246860682603,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B00FR85IRK",
+        "title": "Fujifilm Instax Mini 90 Neo Classic Instant Film Camera",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.698974,
+        "reranker_score": 1.803751,
+        "score": 0.698974,
+        "rank_movement": 0,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 2,
+        "product_id": "B086CCF94G",
+        "title": "Fujifilm Instax Mini 11 Lilac Purple Instant Camera with Twin Pack Instant Film, Ritz Gear Frame Stickers and Ritz Gear Hanging Frames",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.601313,
+        "reranker_score": 0.429312,
+        "score": 0.601313,
+        "rank_movement": -3,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07SJLF2XN",
+        "title": "Tiessic Instax Mini 9 Camera Accessories Bundles Compatible with Fujifilm Instax Mini 9 Mini 8 Mini 8+ Camera with Mini 9 Case,108 Photos Mini Photo Album,etc. (Light Starry Sky，14 Items)",
+        "brand": "Tiessic",
+        "retrieval_score": 0.53149,
+        "reranker_score": -0.568576,
+        "score": 0.53149,
+        "rank_movement": -12,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B077BQ6KZ7",
+        "title": "Fujifilm instax Mini 9 Instant Camera (Ice Blue) with Film Twin Pack Bundle (2 Items)",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.531382,
+        "reranker_score": 0.548476,
+        "score": 0.531382,
+        "rank_movement": 0,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B074WH86Y2",
+        "title": "Fujifilm Instax Mini 9 Instant Camera + Fuji Instant Film (40 Sheets) + Accessories Bundle - Carrying Case, Color Filters, Photo Albums, Assorted Frames, Selfie Lens plus more (Ice Blue)",
+        "brand": "DEALS NUMBER ONE",
+        "retrieval_score": 0.51816,
+        "reranker_score": 0.576323,
+        "score": 0.51816,
+        "rank_movement": 2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07YCVKWLN",
+        "title": "Fujifilm Instax Mini 9 - Instant Camera Cobalt Blue with Carrying Case + Fuji Instax Film Value Pack (40 Sheets) Accessories Bundle, Color Filters, Photo Album, Assorted Frames, Selfie Lens + More",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.512845,
+        "reranker_score": -0.025003,
+        "score": 0.512845,
+        "rank_movement": -6,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07YWW8ZWX",
+        "title": "Case & Accessories Compatible with Fujifilm Instax Mini 9/8 / 8+ Instant Film Camera, Bundle Pack Include Album, Filters, Strap & Other Accessories [ Rainbow & Unicorn,9 Items Kit ] by SAIKA",
+        "brand": "SAIKA",
+        "retrieval_score": 0.405728,
+        "reranker_score": -0.562778,
+        "score": 0.405728,
+        "rank_movement": -7,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B071WNBH6S",
+        "title": "Fujifilm Instax Mini Instant Film (3 Twin Packs, 60 Total Pictures) for Instax Cameras",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.377028,
+        "reranker_score": 1.26397,
+        "score": 0.377028,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B06W5JYQX1",
+        "title": "Fujifilm INSTAX Mini Instant Film 2 Pack = 20 Sheets (White) for Fujifilm Mini 8 & Mini 9 Cameras, Model:4332059078",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.329576,
+        "reranker_score": 0.326568,
+        "score": 0.329576,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B015IY34FA",
+        "title": "Fujifilm Instax Mini Instant Film, 10 Sheets×5 Pack(Total 50 Shoots)",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.236602,
+        "reranker_score": 0.425498,
+        "score": 0.236602,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B00FR85IRK",
+        "title": "Fujifilm Instax Mini 90 Neo Classic Instant Film Camera",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.698974,
+        "reranker_score": 1.803751,
+        "score": 1.803751,
+        "rank_movement": 0,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 2,
+        "product_id": "B071WNBH6S",
+        "title": "Fujifilm Instax Mini Instant Film (3 Twin Packs, 60 Total Pictures) for Instax Cameras",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.377028,
+        "reranker_score": 1.26397,
+        "score": 1.26397,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B074WH86Y2",
+        "title": "Fujifilm Instax Mini 9 Instant Camera + Fuji Instant Film (40 Sheets) + Accessories Bundle - Carrying Case, Color Filters, Photo Albums, Assorted Frames, Selfie Lens plus more (Ice Blue)",
+        "brand": "DEALS NUMBER ONE",
+        "retrieval_score": 0.51816,
+        "reranker_score": 0.576323,
+        "score": 0.576323,
+        "rank_movement": 2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B077BQ6KZ7",
+        "title": "Fujifilm instax Mini 9 Instant Camera (Ice Blue) with Film Twin Pack Bundle (2 Items)",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.531382,
+        "reranker_score": 0.548476,
+        "score": 0.548476,
+        "rank_movement": 0,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B086CCF94G",
+        "title": "Fujifilm Instax Mini 11 Lilac Purple Instant Camera with Twin Pack Instant Film, Ritz Gear Frame Stickers and Ritz Gear Hanging Frames",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.601313,
+        "reranker_score": 0.429312,
+        "score": 0.429312,
+        "rank_movement": -3,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B015IY34FA",
+        "title": "Fujifilm Instax Mini Instant Film, 10 Sheets×5 Pack(Total 50 Shoots)",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.236602,
+        "reranker_score": 0.425498,
+        "score": 0.425498,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 7,
+        "product_id": "B00G6C7XUG",
+        "title": "Fujifilm Instax Mini Instant Film, 10 Sheets of 5 Pack × 2 (100 Sheets)",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.15412,
+        "reranker_score": 0.377391,
+        "score": 0.377391,
+        "rank_movement": 8,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 8,
+        "product_id": "B06W5JYQX1",
+        "title": "Fujifilm INSTAX Mini Instant Film 2 Pack = 20 Sheets (White) for Fujifilm Mini 8 & Mini 9 Cameras, Model:4332059078",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.329576,
+        "reranker_score": 0.326568,
+        "score": 0.326568,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07CVL53HB",
+        "title": "Fujifilm Instax Square Twin Pack Film - 20 Exposures",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.233211,
+        "reranker_score": 0.280379,
+        "score": 0.280379,
+        "rank_movement": 3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B00EB4ADQW",
+        "title": "Fujifilm Instax Mini Instant Film Twin Pack (White)",
+        "brand": "Fujifilm",
+        "retrieval_score": 0.235887,
+        "reranker_score": 0.253414,
+        "score": 0.253414,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      }
+    ]
+  },
+  {
+    "query_id": "85838",
+    "query": "razors without lubricating strip",
+    "baseline_ndcg_at_10": 0.6460465498411488,
+    "reranker_ndcg_at_10": 0.8258931598415375,
+    "relative_gain": 0.27838026539203675,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B07F761JPF",
+        "title": "McKesson Razor Single Edge Twin Blade Blue 100 per Case 16-RZ50",
+        "brand": "McKesson",
+        "retrieval_score": 0.048926,
+        "reranker_score": 0.408803,
+        "score": 0.048926,
+        "rank_movement": -14,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B003YUYVMQ",
+        "title": "BIC Premium Shaving Razor Set with Aloe Vera and Vitamin E Lubricating Disposable Razors for Women, Strip Soleil Color, 8-Count, 3 Blades",
+        "brand": "BIC",
+        "retrieval_score": 0.035368,
+        "reranker_score": -0.532415,
+        "score": 0.035368,
+        "rank_movement": -37,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07CZCQ481",
+        "title": "Amazon Brand - Solimo 5-Blade MotionSphere Razor for Men with Dual Lubrication and Precision Trimmer, Handle & 16 Cartridges (Cartridges fit Solimo Razor Handles only)",
+        "brand": "Solimo",
+        "retrieval_score": 0.025062,
+        "reranker_score": 0.148153,
+        "score": 0.025062,
+        "rank_movement": -26,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B015Y1MYT4",
+        "title": "ECO Amenities Smooth Shave Disposable Razor with Cream, Individually Wrapped Paper Box, 100 Set per Case",
+        "brand": "ECO amenities",
+        "retrieval_score": 0.02343,
+        "reranker_score": -0.022001,
+        "score": 0.02343,
+        "rank_movement": -32,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07S45PJS4",
+        "title": "Made For You by BIC Shaving Razor Blades for Every Body - Men & Women, with 2 Cartridge Refills - 5-Blade Razors for a Smooth Close Shave, TEAL, Kit",
+        "brand": "Made For You",
+        "retrieval_score": 0.021711,
+        "reranker_score": 0.156134,
+        "score": 0.021711,
+        "rank_movement": -22,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 6,
+        "product_id": "B005FVBCI8",
+        "title": "Gillette Sensor2 Disposable Razors for Men, Water Activated Lubrastrip to Help Avoid Skin Irritation",
+        "brand": "Gillette",
+        "retrieval_score": 0.016004,
+        "reranker_score": 0.442855,
+        "score": 0.016004,
+        "rank_movement": -7,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07CYN88NJ",
+        "title": "Amazon Brand - Solimo 5-Blade Razor for Women, Handle, 12 Cartridges & Shower Hanger (Cartridges fit Solimo Razor Handles only)",
+        "brand": "Solimo",
+        "retrieval_score": 0.009991,
+        "reranker_score": 0.573505,
+        "score": 0.009991,
+        "rank_movement": 0,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 8,
+        "product_id": "B07PX77GGS",
+        "title": "Gillette Sensor3 Comfort Disposable Razors for Men, 12 Count, Water-Activated Comfortgel Technology For Ultimate Comfort",
+        "brand": "Gillette",
+        "retrieval_score": 0.008896,
+        "reranker_score": 0.090425,
+        "score": 0.008896,
+        "rank_movement": -24,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B00VBUYGNA",
+        "title": "BIC Comfort 3 Hybrid Men's Disposable Razor, 3 Blades, 12 Cartridges and 1 Handle, Black, For a Close and Comfortable Shave",
+        "brand": "BIC",
+        "retrieval_score": 0.008863,
+        "reranker_score": 0.567229,
+        "score": 0.008863,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B07ZK5VSYZ",
+        "title": "Preserve POPi Shave 5 Razor System Made with Recycled Ocean Plastic and 5-blade cartridge (Recycled Ocean Plastic: Neptune Green)",
+        "brand": "Preserve",
+        "retrieval_score": 0.007491,
+        "reranker_score": 0.155895,
+        "score": 0.007491,
+        "rank_movement": -18,
+        "relevance_label": "E"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B081V6TG6S",
+        "title": "Bulk Disposable Twin Blade Razors (144 Count)",
+        "brand": "G-Smile",
+        "retrieval_score": -0.02328,
+        "reranker_score": 0.876308,
+        "score": 0.876308,
+        "rank_movement": 36,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B07T81KWFG",
+        "title": "Schick Xtreme 3 Senstive Skin Disposable Razors for Men With New Heavyweight Handle, 12 count (Pack of 3)",
+        "brand": "Schick",
+        "retrieval_score": -0.004936,
+        "reranker_score": 0.657177,
+        "score": 0.657177,
+        "rank_movement": 21,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B0039LMTBU",
+        "title": "Gillette Venus Sensitive Disposable Razors for Women with Sensitive Skin, 6 Count, Delivers Close Shave with Comfort",
+        "brand": "Gillette Venus",
+        "retrieval_score": -0.013924,
+        "reranker_score": 0.652698,
+        "score": 0.652698,
+        "rank_movement": 29,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B091BFN7TX",
+        "title": "NEW! Kahania 15 Eco-Razor pack Eco-Friendly Non-Toxic | Biodegradable Disposable Razor - Not just the handle, the whole razor, handle, head and safety cap!",
+        "brand": "Kahania",
+        "retrieval_score": -0.002316,
+        "reranker_score": 0.608336,
+        "score": 0.608336,
+        "rank_movement": 16,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B09B4GH3JY",
+        "title": "Easy Shower Disposable Body Razor for Men (10 Pack) - Sensitive Body Razors / Blades (Blue)",
+        "brand": "Easy Shower",
+        "retrieval_score": -0.030932,
+        "reranker_score": 0.589701,
+        "score": 0.589701,
+        "rank_movement": 34,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B083LDTH1C",
+        "title": "(144 Pack) Individually Wrapped Twin Blade Razors with Clear Safety Cap, Disposable, Bulk Packed, Sold by the Case.",
+        "brand": "Freshscent",
+        "retrieval_score": -0.012643,
+        "reranker_score": 0.574343,
+        "score": 0.574343,
+        "rank_movement": 24,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07CYN88NJ",
+        "title": "Amazon Brand - Solimo 5-Blade Razor for Women, Handle, 12 Cartridges & Shower Hanger (Cartridges fit Solimo Razor Handles only)",
+        "brand": "Solimo",
+        "retrieval_score": 0.009991,
+        "reranker_score": 0.573505,
+        "score": 0.573505,
+        "rank_movement": 0,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 8,
+        "product_id": "B00VBUYGNA",
+        "title": "BIC Comfort 3 Hybrid Men's Disposable Razor, 3 Blades, 12 Cartridges and 1 Handle, Black, For a Close and Comfortable Shave",
+        "brand": "BIC",
+        "retrieval_score": 0.008863,
+        "reranker_score": 0.567229,
+        "score": 0.567229,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B00AHF1GTM",
+        "title": "Schick Hydro Silk Razor Disposable Razors for Women with Moisturizing Serum, 3 Count",
+        "brand": "Schick Hydro Silk",
+        "retrieval_score": -0.006476,
+        "reranker_score": 0.513669,
+        "score": 0.513669,
+        "rank_movement": 15,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 10,
+        "product_id": "B001JQLNH8",
+        "title": "Gillette Mach3 Disposable Razors for Men, 6 Count, Designed for Sensitive Skin",
+        "brand": "Gillette",
+        "retrieval_score": 0.002464,
+        "reranker_score": 0.485535,
+        "score": 0.485535,
+        "rank_movement": 3,
+        "relevance_label": "E"
+      }
+    ]
+  },
+  {
+    "query_id": "78851",
+    "query": "pentax k3",
+    "baseline_ndcg_at_10": 0.7005335801878879,
+    "reranker_ndcg_at_10": 0.9686951808740456,
+    "relative_gain": 0.38279621173082795,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B01GHVIU70",
+        "title": "Pentax K-70 Weather-Sealed DSLR Camera, Body Only (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.791396,
+        "reranker_score": -0.781411,
+        "score": 0.791396,
+        "rank_movement": -10,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 2,
+        "product_id": "B01BL6L3G6",
+        "title": "Pentax K-1 Full Frame DSLR Camera (Body Only)",
+        "brand": "Pentax",
+        "retrieval_score": 0.773558,
+        "reranker_score": -0.711633,
+        "score": 0.773558,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07L2BQV81",
+        "title": "Pentax K-1 Mark II Full Frame Weather Resistant DSLR Camera (Body Only) with 32GB Card & Deluxe Photo Cleaning Kit Bundle",
+        "brand": "Pentax - Photo Savings",
+        "retrieval_score": 0.707054,
+        "reranker_score": -0.784912,
+        "score": 0.707054,
+        "rank_movement": -10,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B00DBPKBQO",
+        "title": "Pentax K-50 16MP Digital SLR Camera with 3-Inch LCD - Body Only (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.703577,
+        "reranker_score": -0.414565,
+        "score": 0.703577,
+        "rank_movement": -1,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B00GBLD7FC",
+        "title": "Pentax OFC-1 16GB Flu Card for Pentax K3 DSLR Camera - WiFi SD Card (White)",
+        "brand": "Pentax",
+        "retrieval_score": 0.596392,
+        "reranker_score": -0.721237,
+        "score": 0.596392,
+        "rank_movement": -3,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 6,
+        "product_id": "B0082OJ2Z0",
+        "title": "Pentax K-30 Weather-Sealed 16 MP CMOS Digital SLR with 18-55mm Lens (White)",
+        "brand": "Pentax",
+        "retrieval_score": 0.490933,
+        "reranker_score": -0.863669,
+        "score": 0.490933,
+        "rank_movement": -8,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B00SYIDZRK",
+        "title": "Pentax K-S2 20MP Wi-Fi Enabled Weatherized SLR Body Only (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.48002,
+        "reranker_score": -0.748272,
+        "score": 0.48002,
+        "rank_movement": -2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B00GT1MI68",
+        "title": "Pentax 15563 K-3 Premium Silver Edition, 24.35 megapixels DSLR Camera with 3.2-inch LCD Screen (Silver)",
+        "brand": "Pentax",
+        "retrieval_score": 0.474638,
+        "reranker_score": 0.323359,
+        "score": 0.474638,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B079SFBQH4",
+        "title": "Pentax K-1 Mark II Full Frame 36MP Weather Resistant DSLR with 3.2\" TFT LCD, Black",
+        "brand": "Pentax",
+        "retrieval_score": 0.425316,
+        "reranker_score": -0.763934,
+        "score": 0.425316,
+        "rank_movement": -1,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 10,
+        "product_id": "B0082OJ3AY",
+        "title": "Pentax K-30 Weather-Sealed 16 MP CMOS Digital SLR with 18-55mm and 55-300mm Lenses (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.424965,
+        "reranker_score": -0.884911,
+        "score": 0.424965,
+        "rank_movement": -6,
+        "relevance_label": "S"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B00FPOQ51O",
+        "title": "Pentax K-3 Kit Schwarz+ DAL 18-55 WR+ 50-200 - Spiegelreflexkamera",
+        "brand": "Pentax",
+        "retrieval_score": 0.17699,
+        "reranker_score": 0.418865,
+        "score": 0.418865,
+        "rank_movement": 15,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B00GT1MI68",
+        "title": "Pentax 15563 K-3 Premium Silver Edition, 24.35 megapixels DSLR Camera with 3.2-inch LCD Screen (Silver)",
+        "brand": "Pentax",
+        "retrieval_score": 0.474638,
+        "reranker_score": 0.323359,
+        "score": 0.323359,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B0043M6F14",
+        "title": "Pentax K-5 16.3 MP Digital SLR with 3-Inch LCD (Black Body Only)",
+        "brand": "Pentax",
+        "retrieval_score": 0.397523,
+        "reranker_score": -0.157104,
+        "score": -0.157104,
+        "rank_movement": 9,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B01N5RH90B",
+        "title": "Pentax KP 24.32 Ultra-Compact Weatherproof DSLR with 3\" LCD, Black",
+        "brand": "Pentax",
+        "retrieval_score": 0.367136,
+        "reranker_score": -0.407191,
+        "score": -0.407191,
+        "rank_movement": 9,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B00DBPKBQO",
+        "title": "Pentax K-50 16MP Digital SLR Camera with 3-Inch LCD - Body Only (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.703577,
+        "reranker_score": -0.414565,
+        "score": -0.414565,
+        "rank_movement": -1,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B009JPEISW",
+        "title": "Pentax K-5 IIs 16.3 MP DSLR Body Only (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.36632,
+        "reranker_score": -0.474695,
+        "score": -0.474695,
+        "rank_movement": 8,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B01BL6L3G6",
+        "title": "Pentax K-1 Full Frame DSLR Camera (Body Only)",
+        "brand": "Pentax",
+        "retrieval_score": 0.773558,
+        "reranker_score": -0.711633,
+        "score": -0.711633,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B00GBLD7FC",
+        "title": "Pentax OFC-1 16GB Flu Card for Pentax K3 DSLR Camera - WiFi SD Card (White)",
+        "brand": "Pentax",
+        "retrieval_score": 0.596392,
+        "reranker_score": -0.721237,
+        "score": -0.721237,
+        "rank_movement": -3,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 9,
+        "product_id": "B00SYIDZRK",
+        "title": "Pentax K-S2 20MP Wi-Fi Enabled Weatherized SLR Body Only (Black)",
+        "brand": "Pentax",
+        "retrieval_score": 0.48002,
+        "reranker_score": -0.748272,
+        "score": -0.748272,
+        "rank_movement": -2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 10,
+        "product_id": "B079SFBQH4",
+        "title": "Pentax K-1 Mark II Full Frame 36MP Weather Resistant DSLR with 3.2\" TFT LCD, Black",
+        "brand": "Pentax",
+        "retrieval_score": 0.425316,
+        "reranker_score": -0.763934,
+        "score": -0.763934,
+        "rank_movement": -1,
+        "relevance_label": "S"
+      }
+    ]
+  },
+  {
+    "query_id": "4899",
+    "query": "6 qt instant pot accessories",
+    "baseline_ndcg_at_10": 0.884540225929999,
+    "reranker_ndcg_at_10": 0.8808100615081589,
+    "relative_gain": -0.0042170658976173605,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B00ICL8M1I",
+        "title": "Instant Pot Ceramic Inner Cooking Pot - 6 Quart",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.83572,
+        "reranker_score": 1.745072,
+        "score": 0.83572,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B07L2P26XD",
+        "title": "Instant Pot Accessories Set, 73 PCS Instant Pot Accessories Compatible with 5,6,8Qt - 60 Pcs Parchment Papers, 2 Steamer Baskets, Non-stick Springform Pan, Egg Rack, Egg Bites Mold, Kitchen Tong, Dish",
+        "brand": "KOSBON",
+        "retrieval_score": 0.585049,
+        "reranker_score": 0.138704,
+        "score": 0.585049,
+        "rank_movement": -5,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07JQ6684Y",
+        "title": "Aiduy 12 Pieces Accessories Set for Instant Pot, Compatible with Instant Pot 6,8Qt-Steamer Basket, Non-stick Springform Pan, Egg Bites Mold, Egg Rack, Steamer Trivet, Kitchen Tongs, Cheat Sheet Magnet",
+        "brand": "Aiduy",
+        "retrieval_score": 0.514913,
+        "reranker_score": 0.161941,
+        "score": 0.514913,
+        "rank_movement": -3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07VF7J5VQ",
+        "title": "Instant Pot Air Fryer Lid 6 in 1, No Pressure Cooking Functionality, 6 Qt, 1500 W",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.508392,
+        "reranker_score": 0.060182,
+        "score": 0.508392,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07QMMM6N7",
+        "title": "Upgraded 28pc Accessories for Instant Pot Compatible with Pressure Cooker 5,6,8 Qt, Includes Steamer Basket, Springform Pan, Non-Stick Silicone Egg Bites Mold, Baking Mat,12 Baking Cup (Ebook RECIPES)",
+        "brand": "YXwin",
+        "retrieval_score": 0.507823,
+        "reranker_score": 0.796185,
+        "score": 0.507823,
+        "rank_movement": 2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B082WR9RLS",
+        "title": "PentaQ Insta Pot Accessories Compatible with 6 Quart, 24 Pieces Pressure Cooker Accessory Set Orange 8 Quart, 2 Steamer Basket, Springform Pan, Egg Bites Mold",
+        "brand": "pentaQ",
+        "retrieval_score": 0.500172,
+        "reranker_score": 0.240753,
+        "score": 0.500172,
+        "rank_movement": 1,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B011HLNE1M",
+        "title": "Instant Pot Silicone Cover 5 & 6 quart",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.499161,
+        "reranker_score": -0.070057,
+        "score": 0.499161,
+        "rank_movement": -3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 8,
+        "product_id": "B07PW7CBQQ",
+        "title": "Pressure Cooker Accessory Set, Accessories 6 Qt Compatible with 6Qt Instant Pot, with Silicone Sealing Rings, Tempered Glass Lid, Steamer Basket, Non-Stick Springform Pan",
+        "brand": "Acnusik",
+        "retrieval_score": 0.462949,
+        "reranker_score": 1.458246,
+        "score": 0.462949,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07KXR9F5W",
+        "title": "18-Piece Pressure Cooker Accessories Set for Instant Pot 6 Qt, Steamer Basket, Nonstick Springform Pan, Egg Steam Rack, Egg Bites Mold, Mini Mitt, Sealing Rings, Magnetic Cheat Sheets, Cleaning Set",
+        "brand": "AOZITA",
+        "retrieval_score": 0.438481,
+        "reranker_score": 0.478657,
+        "score": 0.438481,
+        "rank_movement": 5,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B07WVVSBJV",
+        "title": "Instant Pot Official Silicone Steamer Basket, Compatible with 6-Quart and 8-Quart Cookers, Green",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.421842,
+        "reranker_score": -0.240468,
+        "score": 0.421842,
+        "rank_movement": -1,
+        "relevance_label": "E"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B00ICL8M1I",
+        "title": "Instant Pot Ceramic Inner Cooking Pot - 6 Quart",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.83572,
+        "reranker_score": 1.745072,
+        "score": 1.745072,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B07PW7CBQQ",
+        "title": "Pressure Cooker Accessory Set, Accessories 6 Qt Compatible with 6Qt Instant Pot, with Silicone Sealing Rings, Tempered Glass Lid, Steamer Basket, Non-Stick Springform Pan",
+        "brand": "Acnusik",
+        "retrieval_score": 0.462949,
+        "reranker_score": 1.458246,
+        "score": 1.458246,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07QMMM6N7",
+        "title": "Upgraded 28pc Accessories for Instant Pot Compatible with Pressure Cooker 5,6,8 Qt, Includes Steamer Basket, Springform Pan, Non-Stick Silicone Egg Bites Mold, Baking Mat,12 Baking Cup (Ebook RECIPES)",
+        "brand": "YXwin",
+        "retrieval_score": 0.507823,
+        "reranker_score": 0.796185,
+        "score": 0.796185,
+        "rank_movement": 2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07KXR9F5W",
+        "title": "18-Piece Pressure Cooker Accessories Set for Instant Pot 6 Qt, Steamer Basket, Nonstick Springform Pan, Egg Steam Rack, Egg Bites Mold, Mini Mitt, Sealing Rings, Magnetic Cheat Sheets, Cleaning Set",
+        "brand": "AOZITA",
+        "retrieval_score": 0.438481,
+        "reranker_score": 0.478657,
+        "score": 0.478657,
+        "rank_movement": 5,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B082WR9RLS",
+        "title": "PentaQ Insta Pot Accessories Compatible with 6 Quart, 24 Pieces Pressure Cooker Accessory Set Orange 8 Quart, 2 Steamer Basket, Springform Pan, Egg Bites Mold",
+        "brand": "pentaQ",
+        "retrieval_score": 0.500172,
+        "reranker_score": 0.240753,
+        "score": 0.240753,
+        "rank_movement": 1,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07JQ6684Y",
+        "title": "Aiduy 12 Pieces Accessories Set for Instant Pot, Compatible with Instant Pot 6,8Qt-Steamer Basket, Non-stick Springform Pan, Egg Bites Mold, Egg Rack, Steamer Trivet, Kitchen Tongs, Cheat Sheet Magnet",
+        "brand": "Aiduy",
+        "retrieval_score": 0.514913,
+        "reranker_score": 0.161941,
+        "score": 0.161941,
+        "rank_movement": -3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07L2P26XD",
+        "title": "Instant Pot Accessories Set, 73 PCS Instant Pot Accessories Compatible with 5,6,8Qt - 60 Pcs Parchment Papers, 2 Steamer Baskets, Non-stick Springform Pan, Egg Rack, Egg Bites Mold, Kitchen Tong, Dish",
+        "brand": "KOSBON",
+        "retrieval_score": 0.585049,
+        "reranker_score": 0.138704,
+        "score": 0.138704,
+        "rank_movement": -5,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 8,
+        "product_id": "B07VF7J5VQ",
+        "title": "Instant Pot Air Fryer Lid 6 in 1, No Pressure Cooking Functionality, 6 Qt, 1500 W",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.508392,
+        "reranker_score": 0.060182,
+        "score": 0.060182,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 9,
+        "product_id": "B008BKHGX0",
+        "title": "Instant Pot IP-POT-SS304-60 Genuine Stainless Steel Inner Cooking Pot - 6 Quart",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.339491,
+        "reranker_score": -0.02453,
+        "score": -0.02453,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B011HLNE1M",
+        "title": "Instant Pot Silicone Cover 5 & 6 quart",
+        "brand": "Instant Pot",
+        "retrieval_score": 0.499161,
+        "reranker_score": -0.070057,
+        "score": -0.070057,
+        "rank_movement": -3,
+        "relevance_label": "E"
+      }
+    ]
+  },
+  {
+    "query_id": "28536",
+    "query": "consola xbox series x",
+    "baseline_ndcg_at_10": 0.7697091093370934,
+    "reranker_ndcg_at_10": 0.9255442413135138,
+    "relative_gain": 0.20245977355085784,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B08TVX3DVN",
+        "title": "Xbox Series X",
+        "brand": "Mcrosoft",
+        "retrieval_score": 1.0,
+        "reranker_score": -0.025618,
+        "score": 1.0,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B08H75RTZ8",
+        "title": "Xbox Series X",
+        "brand": "Microsoft",
+        "retrieval_score": 1.0,
+        "reranker_score": -0.096871,
+        "score": 1.0,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07SFKTLZM",
+        "title": "Xbox Elite Series 2 Controller – Black",
+        "brand": "Microsoft",
+        "retrieval_score": 0.829594,
+        "reranker_score": -0.755536,
+        "score": 0.829594,
+        "rank_movement": -6,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 4,
+        "product_id": "B0911WLYVN",
+        "title": "Xbox Series X 1TB Black (Renewed)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.802882,
+        "reranker_score": -0.576,
+        "score": 0.802882,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B08X35YLB8",
+        "title": "Xbox Series S Console White",
+        "brand": "FRSH MNT",
+        "retrieval_score": 0.782923,
+        "reranker_score": -0.854676,
+        "score": 0.782923,
+        "rank_movement": -7,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B092VHR525",
+        "title": "Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi",
+        "brand": "Microsoft",
+        "retrieval_score": 0.667391,
+        "reranker_score": -0.609122,
+        "score": 0.667391,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 7,
+        "product_id": "B087VM5XC6",
+        "title": "Xbox Series S - 512GB SSD Console with Wireless Controller - EU Version with US Power Cable",
+        "brand": "INCO MIC",
+        "retrieval_score": 0.589557,
+        "reranker_score": -0.84511,
+        "score": 0.589557,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B0895MV7C7",
+        "title": "CronusZen for Nintendo, Playstation, Playstation 3, Playstation 4, Switch, Xbox, Xbox 360 (Electronic Games)",
+        "brand": "Cronus",
+        "retrieval_score": 0.55697,
+        "reranker_score": -1.449285,
+        "score": 0.55697,
+        "rank_movement": -8,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07GQ8M9M5",
+        "title": "Xbox One X 1TB Console - Fallout 76 Bundle (Discontinued)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.524404,
+        "reranker_score": -0.27071,
+        "score": 0.524404,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B08FC5TTBF",
+        "title": "Demon's Souls - PlayStation 5",
+        "brand": "PlayStation",
+        "retrieval_score": 0.501107,
+        "reranker_score": -1.181511,
+        "score": 0.501107,
+        "rank_movement": -5,
+        "relevance_label": "I"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B08TVX3DVN",
+        "title": "Xbox Series X",
+        "brand": "Mcrosoft",
+        "retrieval_score": 1.0,
+        "reranker_score": -0.025618,
+        "score": -0.025618,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B08H75RTZ8",
+        "title": "Xbox Series X",
+        "brand": "Microsoft",
+        "retrieval_score": 1.0,
+        "reranker_score": -0.096871,
+        "score": -0.096871,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07GQ8M9M5",
+        "title": "Xbox One X 1TB Console - Fallout 76 Bundle (Discontinued)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.524404,
+        "reranker_score": -0.27071,
+        "score": -0.27071,
+        "rank_movement": 6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 4,
+        "product_id": "B0911WLYVN",
+        "title": "Xbox Series X 1TB Black (Renewed)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.802882,
+        "reranker_score": -0.576,
+        "score": -0.576,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B092VHR525",
+        "title": "Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi",
+        "brand": "Microsoft",
+        "retrieval_score": 0.667391,
+        "reranker_score": -0.609122,
+        "score": -0.609122,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07NBVPZ6L",
+        "title": "Microsoft Xbox One X Console - 1TB w/ Accessories - Black",
+        "brand": "Microsoft",
+        "retrieval_score": 0.476359,
+        "reranker_score": -0.618585,
+        "score": -0.618585,
+        "rank_movement": 8,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B074WPGYRF",
+        "title": "Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd (Discontinued)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.500193,
+        "reranker_score": -0.643267,
+        "score": -0.643267,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B07WDGB9P5",
+        "title": "Microsoft Xbox One X 1TB Console with Wireless Controller: Xbox One X Enhanced, HDR, Native 4K, Ultra HD (Renewed) (2017 Model)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.499542,
+        "reranker_score": -0.655074,
+        "score": -0.655074,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07SFKTLZM",
+        "title": "Xbox Elite Series 2 Controller – Black",
+        "brand": "Microsoft",
+        "retrieval_score": 0.829594,
+        "reranker_score": -0.755536,
+        "score": -0.755536,
+        "rank_movement": -6,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 10,
+        "product_id": "B08GGDT47N",
+        "title": "Xbox One S",
+        "brand": "Microsoft",
+        "retrieval_score": 0.495266,
+        "reranker_score": -0.834033,
+        "score": -0.834033,
+        "rank_movement": 3,
+        "relevance_label": "S"
+      }
+    ]
+  },
+  {
+    "query_id": "66026",
+    "query": "marvelous mrs maisel",
+    "baseline_ndcg_at_10": 0.4192156332508516,
+    "reranker_ndcg_at_10": 0.4065141539182695,
+    "relative_gain": -0.030298200556327384,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B079HDM344",
+        "title": "Mrs.",
+        "brand": "",
+        "retrieval_score": 1.0,
+        "reranker_score": -0.218357,
+        "score": 1.0,
+        "rank_movement": 0,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 2,
+        "product_id": "B0755KV7SC",
+        "title": "Miss Meadows",
+        "brand": "",
+        "retrieval_score": 0.258885,
+        "reranker_score": -0.876295,
+        "score": 0.258885,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B0797BVXMY",
+        "title": "Reset",
+        "brand": "",
+        "retrieval_score": 0.148758,
+        "reranker_score": -0.92575,
+        "score": 0.148758,
+        "rank_movement": -7,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 4,
+        "product_id": "B01MXJ0XAJ",
+        "title": "How to Download Any Video From Facebook With No Additional Software",
+        "brand": "",
+        "retrieval_score": 0.096752,
+        "reranker_score": -1.48681,
+        "score": 0.096752,
+        "rank_movement": -12,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07KYX4QVJ",
+        "title": "Let's Face the Music and Dance",
+        "brand": "",
+        "retrieval_score": 0.077785,
+        "reranker_score": -1.095144,
+        "score": 0.077785,
+        "rank_movement": -9,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B0042TT26I",
+        "title": "Episode 2",
+        "brand": "",
+        "retrieval_score": 0.076289,
+        "reranker_score": -0.940473,
+        "score": 0.076289,
+        "rank_movement": -5,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 7,
+        "product_id": "B06VYH1DF2",
+        "title": "Pilot",
+        "brand": "",
+        "retrieval_score": 0.075778,
+        "reranker_score": -0.78686,
+        "score": 0.075778,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B06VXZ88BP",
+        "title": "Pilot",
+        "brand": "",
+        "retrieval_score": 0.075778,
+        "reranker_score": -0.78686,
+        "score": 0.075778,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07WSHLNC8",
+        "title": "Season 3 Official Trailer",
+        "brand": "",
+        "retrieval_score": 0.066993,
+        "reranker_score": -0.894738,
+        "score": 0.066993,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B07FNWYY2L",
+        "title": "Season 1 Official Trailer",
+        "brand": "",
+        "retrieval_score": 0.066993,
+        "reranker_score": -0.904045,
+        "score": 0.066993,
+        "rank_movement": 1,
+        "relevance_label": "I"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B079HDM344",
+        "title": "Mrs.",
+        "brand": "",
+        "retrieval_score": 1.0,
+        "reranker_score": -0.218357,
+        "score": -0.218357,
+        "rank_movement": 0,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 2,
+        "product_id": "B01MUDTZ8J",
+        "title": "C-19",
+        "brand": "",
+        "retrieval_score": -0.060388,
+        "reranker_score": -0.677523,
+        "score": -0.677523,
+        "rank_movement": 13,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B06VYH1DF2",
+        "title": "Pilot",
+        "brand": "",
+        "retrieval_score": 0.075778,
+        "reranker_score": -0.78686,
+        "score": -0.78686,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B06VXZ88BP",
+        "title": "Pilot",
+        "brand": "",
+        "retrieval_score": 0.075778,
+        "reranker_score": -0.78686,
+        "score": -0.78686,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B0813HWW85",
+        "title": "Single White Bevy",
+        "brand": "",
+        "retrieval_score": 0.004634,
+        "reranker_score": -0.820037,
+        "score": -0.820037,
+        "rank_movement": 9,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07CSWQKLL",
+        "title": "Part 1",
+        "brand": "",
+        "retrieval_score": -0.163623,
+        "reranker_score": -0.837272,
+        "score": -0.837272,
+        "rank_movement": 10,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 7,
+        "product_id": "B0755KV7SC",
+        "title": "Miss Meadows",
+        "brand": "",
+        "retrieval_score": 0.258885,
+        "reranker_score": -0.876295,
+        "score": -0.876295,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B07WSHLNC8",
+        "title": "Season 3 Official Trailer",
+        "brand": "",
+        "retrieval_score": 0.066993,
+        "reranker_score": -0.894738,
+        "score": -0.894738,
+        "rank_movement": 1,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07FNWYY2L",
+        "title": "Season 1 Official Trailer",
+        "brand": "",
+        "retrieval_score": 0.066993,
+        "reranker_score": -0.904045,
+        "score": -0.904045,
+        "rank_movement": 1,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 10,
+        "product_id": "B0797BVXMY",
+        "title": "Reset",
+        "brand": "",
+        "retrieval_score": 0.148758,
+        "reranker_score": -0.92575,
+        "score": -0.92575,
+        "rank_movement": -7,
+        "relevance_label": "I"
+      }
+    ]
+  },
+  {
+    "query_id": "115255",
+    "query": "yugioh card lot 500",
+    "baseline_ndcg_at_10": 0.6674493239640118,
+    "reranker_ndcg_at_10": 1.0,
+    "relative_gain": 0.49824108602126477,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B00TXMV6EK",
+        "title": "yugioh 200 Card LOT!! Mint Condition!! - Includes 5 Holo's",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.982976,
+        "reranker_score": -0.446842,
+        "score": 0.982976,
+        "rank_movement": -7,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 2,
+        "product_id": "B014C7L1XQ",
+        "title": "BCW 1000 Double Matte Deck Guard Card Sleeves, Mix",
+        "brand": "BCW",
+        "retrieval_score": 0.912585,
+        "reranker_score": -1.041583,
+        "score": 0.912585,
+        "rank_movement": -13,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B00TXMYKSO",
+        "title": "200 YuGiOh Card LOT! Mint Condition! Includes all SetsFAST SHIPPING",
+        "brand": "Konami",
+        "retrieval_score": 0.839712,
+        "reranker_score": -0.3827,
+        "score": 0.839712,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B00BBP67JG",
+        "title": "YuGiOh Custom 200 Card ULTRA Lot [180 Commons/Rares & 20 Holo Foils]",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.831942,
+        "reranker_score": -0.54686,
+        "score": 0.831942,
+        "rank_movement": -6,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B00AGSQ3NE",
+        "title": "4000+ YUGIOH MIXED BULK CARD LOT FROM HUGE COLLECTION COMMONS RARES & 100 HOLOS",
+        "brand": "",
+        "retrieval_score": 0.732397,
+        "reranker_score": -0.524897,
+        "score": 0.732397,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B000X9PPZI",
+        "title": "YuGiOh! Mega Lot 100 Mint Card Plus 4 Rares with Possible Random Holo Inserted! (Yu-Gi-Oh! MAKES A GREAT BIRTHDAY GIFT OR STOCKING STUFFER!)",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.695059,
+        "reranker_score": -0.673764,
+        "score": 0.695059,
+        "rank_movement": -6,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07TKF6TFG",
+        "title": "The Ultimate CMB Yugioh Card Gift Pack",
+        "brand": "Card Market Business",
+        "retrieval_score": 0.6201,
+        "reranker_score": -0.804411,
+        "score": 0.6201,
+        "rank_movement": -7,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B00HK28D8C",
+        "title": "200 YuGiOh Card Lot! 15 Rares & 10 Holos! Free Bonus YuGiOh Collector's Tin!",
+        "brand": "",
+        "retrieval_score": 0.51481,
+        "reranker_score": -0.114132,
+        "score": 0.51481,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 9,
+        "product_id": "B00I01P218",
+        "title": "YuGiOh Holos & Rares Cards, 100 Cards",
+        "brand": "YU-GI-OH!",
+        "retrieval_score": 0.504804,
+        "reranker_score": -0.730703,
+        "score": 0.504804,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 10,
+        "product_id": "B00RPSZP0K",
+        "title": "500 Assorted Yugioh Cards Including Rare, Ultra Rare and Holographic Cards",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.438476,
+        "reranker_score": 0.938583,
+        "score": 0.438476,
+        "rank_movement": 7,
+        "relevance_label": "E"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B002R8IU4Q",
+        "title": "500 YuGiOh Trading Cards Premium Lot with Rares & Holo [Toy]",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.236451,
+        "reranker_score": 1.747678,
+        "score": 1.747678,
+        "rank_movement": 13,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B00CGGBI5C",
+        "title": "4KIDS Toy / Game 500 Yugioh Trading Cards Premium Lot with/ Rares & Holo [Toy] - Great Variety! (Ages 13 Years & Up)",
+        "brand": "4KIDS",
+        "retrieval_score": 0.277944,
+        "reranker_score": 1.204731,
+        "score": 1.204731,
+        "rank_movement": 10,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B00RPSZP0K",
+        "title": "500 Assorted Yugioh Cards Including Rare, Ultra Rare and Holographic Cards",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.438476,
+        "reranker_score": 0.938583,
+        "score": 0.938583,
+        "rank_movement": 7,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 4,
+        "product_id": "B00HK28D8C",
+        "title": "200 YuGiOh Card Lot! 15 Rares & 10 Holos! Free Bonus YuGiOh Collector's Tin!",
+        "brand": "",
+        "retrieval_score": 0.51481,
+        "reranker_score": -0.114132,
+        "score": -0.114132,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 5,
+        "product_id": "B01EZNACAK",
+        "title": "1000 YUGIOH CARDS ULTIMATE LOT YU-GI-OH COLLECTION - 50 HOLO FOILS & RARES! by Unknown",
+        "brand": "Unknown",
+        "retrieval_score": 0.300656,
+        "reranker_score": -0.168619,
+        "score": -0.168619,
+        "rank_movement": 6,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B0010YZKDM",
+        "title": "Konami Lot of 100 Mint YuGiOh! Super Mega Cards Plus 4 Rares Plus Holo Super/Ultra Rare Inserted!",
+        "brand": "Konami",
+        "retrieval_score": 0.255055,
+        "reranker_score": -0.274038,
+        "score": -0.274038,
+        "rank_movement": 7,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B00TXMYKSO",
+        "title": "200 YuGiOh Card LOT! Mint Condition! Includes all SetsFAST SHIPPING",
+        "brand": "Konami",
+        "retrieval_score": 0.839712,
+        "reranker_score": -0.3827,
+        "score": -0.3827,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B00TXMV6EK",
+        "title": "yugioh 200 Card LOT!! Mint Condition!! - Includes 5 Holo's",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.982976,
+        "reranker_score": -0.446842,
+        "score": -0.446842,
+        "rank_movement": -7,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 9,
+        "product_id": "B00AGSQ3NE",
+        "title": "4000+ YUGIOH MIXED BULK CARD LOT FROM HUGE COLLECTION COMMONS RARES & 100 HOLOS",
+        "brand": "",
+        "retrieval_score": 0.732397,
+        "reranker_score": -0.524897,
+        "score": -0.524897,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 10,
+        "product_id": "B00BBP67JG",
+        "title": "YuGiOh Custom 200 Card ULTRA Lot [180 Commons/Rares & 20 Holo Foils]",
+        "brand": "Yu-Gi-Oh!",
+        "retrieval_score": 0.831942,
+        "reranker_score": -0.54686,
+        "score": -0.54686,
+        "rank_movement": -6,
+        "relevance_label": "S"
+      }
+    ]
+  },
+  {
+    "query_id": "20283",
+    "query": "buckle gun roll",
+    "baseline_ndcg_at_10": 0.9195962223022232,
+    "reranker_ndcg_at_10": 0.6881558011657402,
+    "relative_gain": -0.2516761329848315,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B07P5HDMSX",
+        "title": "2019 Rogue EDC Black Leather Gun Belt for Men with High Strength Nylon Backing and Ratchet Buckle - Nexbelt Ratchet System Technology",
+        "brand": "Nexbelt",
+        "retrieval_score": 0.555455,
+        "reranker_score": -0.381414,
+        "score": 0.555455,
+        "rank_movement": -4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B009A11838",
+        "title": "Mission Belt Men's Ratchet Belt - 35mm Black Buckle/Black Leather, Extra Large (39-42)",
+        "brand": "Mission Belt",
+        "retrieval_score": 0.537862,
+        "reranker_score": -0.506022,
+        "score": 0.537862,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B01C2986YI",
+        "title": "Relentless Tactical The Ultimate Concealed Carry CCW Leather Gun Belt - 14 Ounce 1 1/2 Inch Premium Full Grain Leather Belt - Handmade in The USA! Brown Size 48",
+        "brand": "Relentless Tactical",
+        "retrieval_score": 0.533383,
+        "reranker_score": -0.84948,
+        "score": 0.533383,
+        "rank_movement": -7,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 4,
+        "product_id": "B018UQXG2O",
+        "title": "Hanks Stitch Gunner Belts - 1.5\" Best Vaue in A Concealed Carry Belt - USA Made 13OZ Leather - 100 Year Warranty - BRN - 44",
+        "brand": "Hanks Belts",
+        "retrieval_score": 0.506534,
+        "reranker_score": -0.834562,
+        "score": 0.506534,
+        "rank_movement": -5,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B011CI41US",
+        "title": "Hanks Gunner - USA Made Concealed Carry CCW Leather Gun Belt - 100 Year Warranty - 14 Ounce - Natural - 42",
+        "brand": "Hanks Belts",
+        "retrieval_score": 0.481757,
+        "reranker_score": -0.776933,
+        "score": 0.481757,
+        "rank_movement": -3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B01KTUT2YK",
+        "title": "Hanks Everyday -\"No Break\" Thick Leather Belt - Mens Heavy Duty Belts- USA Made -100 Year Warranty - Black - 46",
+        "brand": "Hanks Belts",
+        "retrieval_score": 0.476039,
+        "reranker_score": -1.011232,
+        "score": 0.476039,
+        "rank_movement": -6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07DXFQRGW",
+        "title": "Relentless Tactical Ultimate Steel Core Gun Belt | Leather Gun Belt w/Steel Insert | Made in USA",
+        "brand": "Relentless Tactical",
+        "retrieval_score": 0.444934,
+        "reranker_score": -0.282478,
+        "score": 0.444934,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 8,
+        "product_id": "B0140SAW0K",
+        "title": "Y-blue Multilayer Bracelet Fashion Punk Leather Woven Braided Cross Bangle Wrist Cuff Wristband",
+        "brand": "Y-blue",
+        "retrieval_score": 0.443806,
+        "reranker_score": -1.469492,
+        "score": 0.443806,
+        "rank_movement": -7,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 9,
+        "product_id": "B07DMDXQKC",
+        "title": "FAIRWIN Tactical Belt, Military Style Webbing Riggers Web Belt Heavy-Duty Quick-Release Metal Buckle (Green, S 30\"-36\")",
+        "brand": "FAIRWIN",
+        "retrieval_score": 0.353521,
+        "reranker_score": -0.104006,
+        "score": 0.353521,
+        "rank_movement": 7,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B00Y4QC55E",
+        "title": "Sunny Days Entertainment Wild West Outlaw Play Set – 5 Piece Western Toy for Kids | Cowboy Sheriff Cap Pistol with Holster and Adjustable Belt | Ring Caps Sold Separately",
+        "brand": "Sunny Days Entertainment",
+        "retrieval_score": 0.190884,
+        "reranker_score": -1.424732,
+        "score": 0.190884,
+        "rank_movement": -4,
+        "relevance_label": "S"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B001NHAP36",
+        "title": "Classic Accessories QuadGear UTV Roll Cage Double Gun Carrier, Black",
+        "brand": "Classic Accessories",
+        "retrieval_score": 0.181301,
+        "reranker_score": 0.240778,
+        "score": 0.240778,
+        "rank_movement": 10,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 2,
+        "product_id": "B07DMDXQKC",
+        "title": "FAIRWIN Tactical Belt, Military Style Webbing Riggers Web Belt Heavy-Duty Quick-Release Metal Buckle (Green, S 30\"-36\")",
+        "brand": "FAIRWIN",
+        "retrieval_score": 0.353521,
+        "reranker_score": -0.104006,
+        "score": -0.104006,
+        "rank_movement": 7,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07DXFQRGW",
+        "title": "Relentless Tactical Ultimate Steel Core Gun Belt | Leather Gun Belt w/Steel Insert | Made in USA",
+        "brand": "Relentless Tactical",
+        "retrieval_score": 0.444934,
+        "reranker_score": -0.282478,
+        "score": -0.282478,
+        "rank_movement": 4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07NMWCMZW",
+        "title": "Evolution Outdoor 44604 Gamekeepers Original Bottomland Rolltop Shotgun Case – 50 in, Hunting Gun Case w/Faux Wool Lining, Camo Mossy Oak Pattern, one Size",
+        "brand": "Evolution Outdoor",
+        "retrieval_score": 0.105697,
+        "reranker_score": -0.30804,
+        "score": -0.30804,
+        "rank_movement": 10,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07P5HDMSX",
+        "title": "2019 Rogue EDC Black Leather Gun Belt for Men with High Strength Nylon Backing and Ratchet Buckle - Nexbelt Ratchet System Technology",
+        "brand": "Nexbelt",
+        "retrieval_score": 0.555455,
+        "reranker_score": -0.381414,
+        "score": -0.381414,
+        "rank_movement": -4,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07PHNYQM3",
+        "title": "Super Roll Tool Roll,Multi-Purpose Tool Roll Up Bag, Wrench Roll Pouch,Canvas Tool Organizer Bucket,Car First Aid Kit Wrap Roll Storage Case,Hanging Tool Zipper Carrier Tote,Car Camping Gear",
+        "brand": "HERSENT",
+        "retrieval_score": 0.140858,
+        "reranker_score": -0.455826,
+        "score": -0.455826,
+        "rank_movement": 7,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 7,
+        "product_id": "B009A11838",
+        "title": "Mission Belt Men's Ratchet Belt - 35mm Black Buckle/Black Leather, Extra Large (39-42)",
+        "brand": "Mission Belt",
+        "retrieval_score": 0.537862,
+        "reranker_score": -0.506022,
+        "score": -0.506022,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B011CI41US",
+        "title": "Hanks Gunner - USA Made Concealed Carry CCW Leather Gun Belt - 100 Year Warranty - 14 Ounce - Natural - 42",
+        "brand": "Hanks Belts",
+        "retrieval_score": 0.481757,
+        "reranker_score": -0.776933,
+        "score": -0.776933,
+        "rank_movement": -3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B018UQXG2O",
+        "title": "Hanks Stitch Gunner Belts - 1.5\" Best Vaue in A Concealed Carry Belt - USA Made 13OZ Leather - 100 Year Warranty - BRN - 44",
+        "brand": "Hanks Belts",
+        "retrieval_score": 0.506534,
+        "reranker_score": -0.834562,
+        "score": -0.834562,
+        "rank_movement": -5,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B01C2986YI",
+        "title": "Relentless Tactical The Ultimate Concealed Carry CCW Leather Gun Belt - 14 Ounce 1 1/2 Inch Premium Full Grain Leather Belt - Handmade in The USA! Brown Size 48",
+        "brand": "Relentless Tactical",
+        "retrieval_score": 0.533383,
+        "reranker_score": -0.84948,
+        "score": -0.84948,
+        "rank_movement": -7,
+        "relevance_label": "E"
+      }
+    ]
+  },
+  {
+    "query_id": "114280",
+    "query": "xbox one controller wireless ps3",
+    "baseline_ndcg_at_10": 0.2591060086251145,
+    "reranker_ndcg_at_10": 0.6326957263342308,
+    "relative_gain": 1.441841197321061,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B0785SFKYF",
+        "title": "Microsoft Xbox One Wireless Adapter for Windows (Bulk Packaging)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.918652,
+        "reranker_score": -0.878474,
+        "score": 0.918652,
+        "rank_movement": -11,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 2,
+        "product_id": "B07CJ6GVM8",
+        "title": "Microsoft Xbox One Wireless Adapter for Windows (Bulk Packaging) (Original Version)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.915275,
+        "reranker_score": -0.3667,
+        "score": 0.915275,
+        "rank_movement": -1,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 3,
+        "product_id": "B017KIHHH8",
+        "title": "Rock Band 4 Wireless Fender Stratocaster Guitar Controller for Xbox One - Black",
+        "brand": "Mad Catz",
+        "retrieval_score": 0.894279,
+        "reranker_score": -0.786196,
+        "score": 0.894279,
+        "rank_movement": -7,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07GNCNXML",
+        "title": "CuleedTec Controller Adapter for Switch/PS3/Windows PC, Compatible with Wired PS3/PS4/Xbox 360/Xbox One Controller, and Wireless PS3/PS4/Xbox One X/Xbox One S/Wii U Pro/Switch Pro Controller",
+        "brand": "CuleedTec",
+        "retrieval_score": 0.884924,
+        "reranker_score": -0.576327,
+        "score": 0.884924,
+        "rank_movement": -3,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07X1ZRCDS",
+        "title": "VOYEE Controller Compatible with Microsoft Xbox One Controller, Enhanced Wireless Controller Compatible with Microsoft Xbox One/One S/One X/One Elite/PC Windows 10 | Dual Vibration",
+        "brand": "VOYEE",
+        "retrieval_score": 0.850978,
+        "reranker_score": -0.800715,
+        "score": 0.850978,
+        "rank_movement": -6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07DPG774K",
+        "title": "RUNMUS K8 Gaming Headset for PS4, Xbox One, PC Headset w/Surround Sound, Noise Canceling Over Ear Headphones with Mic & LED Light, Compatible with PS5, PS4, Xbox One, Sega Dreamcast, PC, PS2, Laptop",
+        "brand": "RUNMUS",
+        "retrieval_score": 0.840394,
+        "reranker_score": -1.248787,
+        "score": 0.840394,
+        "rank_movement": -9,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 7,
+        "product_id": "B081TG33FK",
+        "title": "Xbox Wireless Controller PC Game Controller 2.4GHZ Wireless Game Controller Compatible with Xbox One/ One S/ One X and PC with Built-in Dual Vibration No Audio jack",
+        "brand": "RIBOXIN",
+        "retrieval_score": 0.823359,
+        "reranker_score": -0.731534,
+        "score": 0.823359,
+        "rank_movement": -2,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 8,
+        "product_id": "B076DWKD5B",
+        "title": "BENGOO V-4 Gaming Headset for Xbox One, PS4, PC, Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light Bass Surround Soft Memory Earmuffs for PS2 Mac Nintendo 64 PS5 Games",
+        "brand": "BENGOO",
+        "retrieval_score": 0.78777,
+        "reranker_score": -1.28723,
+        "score": 0.78777,
+        "rank_movement": -8,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 9,
+        "product_id": "B01H6GUCCQ",
+        "title": "BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs for Laptop Mac Nintendo NES Games",
+        "brand": "BENGOO",
+        "retrieval_score": 0.772794,
+        "reranker_score": -1.172556,
+        "score": 0.772794,
+        "rank_movement": -5,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 10,
+        "product_id": "B012HUUDZM",
+        "title": "Vivi Audio Thumb Stick Grips Cap Cover Joystick Thumbsticks Caps for PS4 Xbox ONE Xbox 360 PS3 PS2 Pink Cat Dog Paw",
+        "brand": "Nucucina",
+        "retrieval_score": 0.730637,
+        "reranker_score": -1.137369,
+        "score": 0.730637,
+        "rank_movement": -3,
+        "relevance_label": "C"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B074JZPS39",
+        "title": "Mcbazel Mayflash MAGIC-NS Wireless PS4 PS3 Xbox One S 360 Controller Fighting Stick Adapter for Nintendo Switch PC NeoGeo Mini with USB to Type C OTG Cable Game Card Storage Case",
+        "brand": "Mcbazel",
+        "retrieval_score": 0.647274,
+        "reranker_score": 0.18228,
+        "score": 0.18228,
+        "rank_movement": 13,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 2,
+        "product_id": "B01GW3H3U8",
+        "title": "Xbox Wireless Controller - White",
+        "brand": "Microsoft",
+        "retrieval_score": 0.665293,
+        "reranker_score": -0.108032,
+        "score": -0.108032,
+        "rank_movement": 10,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07CJ6GVM8",
+        "title": "Microsoft Xbox One Wireless Adapter for Windows (Bulk Packaging) (Original Version)",
+        "brand": "Microsoft",
+        "retrieval_score": 0.915275,
+        "reranker_score": -0.3667,
+        "score": -0.3667,
+        "rank_movement": -1,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07Z4RF7SZ",
+        "title": "JAMSWALL Xbox 360 Wireless Controller 2.4GHZ Gamepad with Receiver, Dual Vibration Enhanced Game Controller for Microsoft Xbox & Slim 360 PC Windows 7,8,10 & PS3",
+        "brand": "JAMSWALL",
+        "retrieval_score": 0.666895,
+        "reranker_score": -0.374064,
+        "score": -0.374064,
+        "rank_movement": 7,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07D3D7B68",
+        "title": "Skywin Wireless Controller Adapter - Converter allows for use of PS3/PS4/XBOX Controllers with Nintendo Switch or PC",
+        "brand": "Skywin",
+        "retrieval_score": 0.659676,
+        "reranker_score": -0.4709,
+        "score": -0.4709,
+        "rank_movement": 8,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 6,
+        "product_id": "B07R4ZLRR5",
+        "title": "2 Pack EasySMX 2.4G Wireless Controller for PS3, PC Gamepads with Vibration Fire Button Range up to 10m Support PC,Laptop, Android TV BOX (black blue and black red)",
+        "brand": "EasySMX",
+        "retrieval_score": 0.309765,
+        "reranker_score": -0.484878,
+        "score": -0.484878,
+        "rank_movement": 10,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07GNCNXML",
+        "title": "CuleedTec Controller Adapter for Switch/PS3/Windows PC, Compatible with Wired PS3/PS4/Xbox 360/Xbox One Controller, and Wireless PS3/PS4/Xbox One X/Xbox One S/Wii U Pro/Switch Pro Controller",
+        "brand": "CuleedTec",
+        "retrieval_score": 0.884924,
+        "reranker_score": -0.576327,
+        "score": -0.576327,
+        "rank_movement": -3,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 8,
+        "product_id": "B01MF9QD6R",
+        "title": "Insten [2 Pair / 4 Pcs] Wireless Controllers Silicone Analog Thumb Grip Stick Cover, Game Remote Joystick Cap Compatible with PS4 Dualshock 4/ PS3 Dualshock 3/ PS2 Dualshock/Xbox One/360, Black/Red",
+        "brand": "INSTEN",
+        "retrieval_score": 0.636241,
+        "reranker_score": -0.678109,
+        "score": -0.678109,
+        "rank_movement": 7,
+        "relevance_label": "C"
+      },
+      {
+        "rank": 9,
+        "product_id": "B081TG33FK",
+        "title": "Xbox Wireless Controller PC Game Controller 2.4GHZ Wireless Game Controller Compatible with Xbox One/ One S/ One X and PC with Built-in Dual Vibration No Audio jack",
+        "brand": "RIBOXIN",
+        "retrieval_score": 0.823359,
+        "reranker_score": -0.731534,
+        "score": -0.731534,
+        "rank_movement": -2,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 10,
+        "product_id": "B017KIHHH8",
+        "title": "Rock Band 4 Wireless Fender Stratocaster Guitar Controller for Xbox One - Black",
+        "brand": "Mad Catz",
+        "retrieval_score": 0.894279,
+        "reranker_score": -0.786196,
+        "score": -0.786196,
+        "rank_movement": -7,
+        "relevance_label": "I"
+      }
+    ]
+  },
+  {
+    "query_id": "92567",
+    "query": "shimano sh-11",
+    "baseline_ndcg_at_10": 0.8255672202513412,
+    "reranker_ndcg_at_10": 0.9311903779086717,
+    "relative_gain": 0.12794010598576552,
+    "baseline": [
+      {
+        "rank": 1,
+        "product_id": "B07ZNFXHZT",
+        "title": "Road Bike Cleats 6 Degree Float Self-Locking Cycling Pedals Cleat for Shimano SH-11 SPD-SL System Shoes",
+        "brand": "Actmei",
+        "retrieval_score": 0.447402,
+        "reranker_score": -0.677936,
+        "score": 0.447402,
+        "rank_movement": -6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B07NN54JFZ",
+        "title": "MZYRH Road Bike Cleats 6 Degree Float Self-Locking Cycling Pedals Cleat for SH-11 SPD-SL System Shoes（Black）",
+        "brand": "MZYRH",
+        "retrieval_score": 0.414786,
+        "reranker_score": -1.284505,
+        "score": 0.414786,
+        "rank_movement": -14,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B07MLMM4H7",
+        "title": "SPORTMORE Bike Cleats for Cycling Shoes 6 Degree,Indoor Spinning & Road Bicycle Clips Set Compatible with Shimano - Yellow",
+        "brand": "SportMore",
+        "retrieval_score": 0.159504,
+        "reranker_score": -1.266313,
+        "score": 0.159504,
+        "rank_movement": -11,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07BP1B8NH",
+        "title": "Fantasy Life Bike Cleats Compatible with Shimano SH11 SPD-SL Shoes Indoor Cycling or Road Bike Bicycle-Yellow",
+        "brand": "Fantasy Life",
+        "retrieval_score": 0.153798,
+        "reranker_score": -0.374674,
+        "score": 0.153798,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B07SKBJVN5",
+        "title": "Inkesky Bike Cleats SPD-SL for Road Cycling - Compatible with Shimano SM-SH11 - Yellow",
+        "brand": "Inkesky",
+        "retrieval_score": 0.116455,
+        "reranker_score": -0.820059,
+        "score": 0.116455,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 6,
+        "product_id": "B081N5Y5VZ",
+        "title": "Thinvik Road Bike Cleats 2 Degree Float Self-Locking Cycling Pedals Cleat for Shimano SH-12 SPD-SL System Shoes",
+        "brand": "Thinvik",
+        "retrieval_score": 0.098573,
+        "reranker_score": -1.26692,
+        "score": 0.098573,
+        "rank_movement": -9,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B08946K4DK",
+        "title": "MARQUE Shimano SPD SL Cleats – 6 Degree Float Replacement Clipless Cleat Compatible with Shimano Road Bicycle Pedals, Similar to SM-SH11 Cleats – Made with Highly Durable thermoplastic",
+        "brand": "MARQUE",
+        "retrieval_score": 0.09283,
+        "reranker_score": -0.744874,
+        "score": 0.09283,
+        "rank_movement": -2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 8,
+        "product_id": "B076QC62Z3",
+        "title": "Thinvik Road Bike Cleats for Shimano SPD-SL Locking Cycling Pedals Cleat for Shimano Sh11 System Shoes - 6 Degree Float",
+        "brand": "Thinvik",
+        "retrieval_score": 0.084417,
+        "reranker_score": -0.605096,
+        "score": 0.084417,
+        "rank_movement": 3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 9,
+        "product_id": "B06XCRQ2RH",
+        "title": "Shimano 2017/18 Men's Gravity GR700 Enduro/Trail Cycling Shoe - Blue - SH-GR7 (BLUE - 46.0)",
+        "brand": "SHIMANO",
+        "retrieval_score": 0.074828,
+        "reranker_score": -0.846058,
+        "score": 0.074828,
+        "rank_movement": -2,
+        "relevance_label": "I"
+      },
+      {
+        "rank": 10,
+        "product_id": "B000R2MYB4",
+        "title": "SHIMANO unisex adult Sh-51 Without Plate replacement cycling cleats, Black, One Size US",
+        "brand": "SHIMANO",
+        "retrieval_score": 0.050676,
+        "reranker_score": -0.665409,
+        "score": 0.050676,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      }
+    ],
+    "reranked": [
+      {
+        "rank": 1,
+        "product_id": "B00537GKJK",
+        "title": "SHIMANO SM-SH11 Cleat Set(SELF-ALIGNING Mode/Pair)",
+        "brand": "SHIMANO",
+        "retrieval_score": 0.024089,
+        "reranker_score": 0.395165,
+        "score": 0.395165,
+        "rank_movement": 12,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 2,
+        "product_id": "B0009FTIH2",
+        "title": "SHIMANO SM-SH11 Road Pedal Cleat",
+        "brand": "SHIMANO",
+        "retrieval_score": -0.015427,
+        "reranker_score": 0.335482,
+        "score": 0.335482,
+        "rank_movement": 13,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 3,
+        "product_id": "B000NONWIK",
+        "title": "SHIMANO Cleats SPD-SL SM-SH10/SM-SH12 (Design: SM-SH11)",
+        "brand": "SHIMANO",
+        "retrieval_score": -0.068235,
+        "reranker_score": 0.213666,
+        "score": 0.213666,
+        "rank_movement": 13,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 4,
+        "product_id": "B07BP1B8NH",
+        "title": "Fantasy Life Bike Cleats Compatible with Shimano SH11 SPD-SL Shoes Indoor Cycling or Road Bike Bicycle-Yellow",
+        "brand": "Fantasy Life",
+        "retrieval_score": 0.153798,
+        "reranker_score": -0.374674,
+        "score": -0.374674,
+        "rank_movement": 0,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 5,
+        "product_id": "B076QC62Z3",
+        "title": "Thinvik Road Bike Cleats for Shimano SPD-SL Locking Cycling Pedals Cleat for Shimano Sh11 System Shoes - 6 Degree Float",
+        "brand": "Thinvik",
+        "retrieval_score": 0.084417,
+        "reranker_score": -0.605096,
+        "score": -0.605096,
+        "rank_movement": 3,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 6,
+        "product_id": "B000R2MYB4",
+        "title": "SHIMANO unisex adult Sh-51 Without Plate replacement cycling cleats, Black, One Size US",
+        "brand": "SHIMANO",
+        "retrieval_score": 0.050676,
+        "reranker_score": -0.665409,
+        "score": -0.665409,
+        "rank_movement": 4,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 7,
+        "product_id": "B07ZNFXHZT",
+        "title": "Road Bike Cleats 6 Degree Float Self-Locking Cycling Pedals Cleat for Shimano SH-11 SPD-SL System Shoes",
+        "brand": "Actmei",
+        "retrieval_score": 0.447402,
+        "reranker_score": -0.677936,
+        "score": -0.677936,
+        "rank_movement": -6,
+        "relevance_label": "E"
+      },
+      {
+        "rank": 8,
+        "product_id": "B001CDUAOU",
+        "title": "SHIMANO SM-SH10 SPD-SL Road Cleat Set Zero Float",
+        "brand": "SHIMANO",
+        "retrieval_score": 0.011538,
+        "reranker_score": -0.717006,
+        "score": -0.717006,
+        "rank_movement": 6,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 9,
+        "product_id": "B08946K4DK",
+        "title": "MARQUE Shimano SPD SL Cleats – 6 Degree Float Replacement Clipless Cleat Compatible with Shimano Road Bicycle Pedals, Similar to SM-SH11 Cleats – Made with Highly Durable thermoplastic",
+        "brand": "MARQUE",
+        "retrieval_score": 0.09283,
+        "reranker_score": -0.744874,
+        "score": -0.744874,
+        "rank_movement": -2,
+        "relevance_label": "S"
+      },
+      {
+        "rank": 10,
+        "product_id": "B07SKBJVN5",
+        "title": "Inkesky Bike Cleats SPD-SL for Road Cycling - Compatible with Shimano SM-SH11 - Yellow",
+        "brand": "Inkesky",
+        "retrieval_score": 0.116455,
+        "reranker_score": -0.820059,
+        "score": -0.820059,
+        "rank_movement": -5,
+        "relevance_label": "S"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+source:
+  repository: https://github.com/amazon-science/esci-data
+  revision: main
+  base_url: https://media.githubusercontent.com/media/amazon-science/esci-data/main/shopping_queries_dataset
+  examples_file: shopping_queries_dataset_examples.parquet
+  products_file: shopping_queries_dataset_products.parquet
+scope:
+  locale: us
+  small_version: 1
+  minimum_judgments: 600000
+split:
+  strategy: official_test_plus_hashed_train_validation
+  validation_fraction: 0.15
+  seed: 20260901
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed

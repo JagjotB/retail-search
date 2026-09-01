@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Search Lab</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='/app.css') }}?v=20260901">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Retail Search Lab home">
+      <span class="mark">RS</span><span>Retail Search Lab</span>
+    </a>
+    <nav aria-label="Page sections">
+      <a href="#compare">Benchmark</a>
+      <a href="#search">Live search</a>
+      <a href="#evidence">Evidence</a>
+    </nav>
+    <span class="status"><i></i> Model online</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AMAZON ESCI · HELD-OUT EVALUATION</p>
+        <h1>Search candidates fast.<br><em>Rank them intelligently.</em></h1>
+        <p class="lede">A reusable two-stage retail system pairing dense retrieval with a learned LambdaMART reranker, proven on real Amazon Shopping Queries relevance judgments.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#compare">Explore the benchmark <span>→</span></a>
+          <a class="button secondary" href="/docs">Inspect the API</a>
+        </div>
+      </div>
+      <aside class="result-card" id="evidence">
+        <p class="card-label">FROZEN TEST RESULT</p>
+        <div class="gain">+{{ '%.4f'|format(model_info.benchmark.relative_gain * 100) }}<small>%</small></div>
+        <p class="gain-caption">relative NDCG@10 lift</p>
+        <div class="meter"><span style="width: {{ [model_info.benchmark.relative_gain * 350, 100]|min }}%"></span></div>
+        <div class="metric-pair">
+          <div><strong>{{ '%.4f'|format(model_info.benchmark.baseline_ndcg_at_10) }}</strong><span>Embedding</span></div>
+          <div class="arrow">→</div>
+          <div><strong>{{ '%.4f'|format(model_info.benchmark.reranker_ndcg_at_10) }}</strong><span>ML reranker</span></div>
+        </div>
+        <p class="artifact-note">Read from the generated benchmark artifact</p>
+      </aside>
+    </section>
+
+    <section class="proof-strip" aria-label="System evidence">
+      <div><strong>{{ '{:,}'.format(model_info.dataset.valid_judgments) }}</strong><span>real ESCI judgments</span></div>
+      <div><strong>{{ '{:,}'.format(model_info.dataset.unique_queries) }}</strong><span>unique queries</span></div>
+      <div><strong>{{ '%.1f'|format(model_info.benchmark.p95_latency_ms) }} ms</strong><span>benchmark p95</span></div>
+      <div><strong>v{{ model_info.model_version.split('-')[2] }}</strong><span>promoted model</span></div>
+    </section>
+
+    <section class="section" id="compare">
+      <div class="section-heading">
+        <div><p class="eyebrow">SAME CANDIDATES · DIFFERENT ORDER</p><h2>See the reranker make its case.</h2></div>
+        <label class="query-picker">Test query<select id="query-select" aria-label="Choose a held-out test query"></select></label>
+      </div>
+      <div class="query-context"><span>Held-out query</span><strong id="active-query">Loading…</strong><div id="query-delta"></div></div>
+      <div class="comparison-grid">
+        <article class="ranking-panel baseline-panel">
+          <div class="panel-title"><div><span>STAGE 1</span><h3>Embedding Baseline</h3></div><strong id="baseline-ndcg">—</strong></div>
+          <p>Dense LSA cosine similarity only</p>
+          <ol id="baseline-results" class="result-list"></ol>
+        </article>
+        <article class="ranking-panel reranker-panel">
+          <div class="panel-title"><div><span>STAGE 2</span><h3>ML Reranker</h3></div><strong id="reranker-ndcg">—</strong></div>
+          <p>Cross-encoder, semantic, lexical, brand, attribute &amp; length signals</p>
+          <ol id="reranked-results" class="result-list"></ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section search-section" id="search">
+      <div class="search-copy"><p class="eyebrow">OPEN-CORPUS DEMO</p><h2>Try a free-text product search.</h2><p>Searches the offline Amazon demo catalog. Results are unjudged, so no NDCG claim is made here.</p></div>
+      <form id="search-form" class="search-box">
+        <input id="search-input" maxlength="300" value="wireless gaming mouse" aria-label="Product search query">
+        <button type="submit">Search</button>
+        <div id="search-timing" class="timing"></div>
+      </form>
+      <div id="search-results" class="search-results"></div>
+    </section>
+
+    <section class="section architecture">
+      <p class="eyebrow">ONE ENGINE · TWO PATHS</p><h2>Built as a system, not a notebook.</h2>
+      <div class="pipeline">
+        <div><span>01</span><strong>Catalog adapter</strong><small>Amazon today, any retailer tomorrow</small></div><i>→</i>
+        <div><span>02</span><strong>Dense retrieval</strong><small>Candidate generation over a vector index</small></div><i>→</i>
+        <div><span>03</span><strong>LambdaMART</strong><small>Consistent training and serving features</small></div><i>→</i>
+        <div><span>04</span><strong>FastAPI</strong><small>Versioned, measured inference</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Retail Search Lab</span><span>Amazon ESCI is used as a public research benchmark. No live Amazon scraping.</span></footer>
+  <script src="{{ url_for('static', path='/app.js') }}?v=20260901" defer></script>
+</body>
+</html>

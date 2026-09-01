@@ -1,0 +1,35 @@
+labels:
+  E: 3
+  S: 2
+  C: 1
+  I: 0
+model:
+  type: lightgbm_lambdarank
+  objective: lambdarank
+  metric: ndcg
+  n_estimators: 700
+  learning_rate: 0.035
+  num_leaves: 63
+  min_child_samples: 25
+  subsample: 0.9
+  colsample_bytree: 0.9
+  reg_lambda: 1.0
+  lambdarank_truncation_level: 10
+  random_state: 20260901
+quality_gate:
+  primary_metric: ndcg_at_10
+  minimum_relative_gain: 0.11
+  maximum_validation_regression: 0.0
+cross_encoder:
+  enabled: true
+  repository: cross-encoder/ms-marco-MiniLM-L4-v2
+  revision: d19c7578cd190e674bda2b51052768e43b61e747
+  local_dir: models/esci_cross_encoder_minilm_l4
+  max_length: 64
+  batch_size: 1024
+  training:
+    objective: pointwise_soft_dcg_gain
+    epochs: 1
+    batch_size: 256
+    learning_rate: 0.00002
+    seed: 20260901

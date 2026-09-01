@@ -1,0 +1,40 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      RETAIL_ARTIFACT_DIR: artifacts
+      RETAIL_MODEL_POINTER: artifacts/promoted.json
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  airflow:
+    profiles: ["airflow"]
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    command: standalone
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags:ro
+      - ./configs:/opt/airflow/project/configs:ro
+      - ./data:/opt/airflow/project/data
+      - ./artifacts:/opt/airflow/project/artifacts
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname $${HOSTNAME}"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s

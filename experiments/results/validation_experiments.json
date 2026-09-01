@@ -1,0 +1,26 @@
+[
+  {
+    "name": "embedding-only baseline",
+    "features": "dense LSA cosine only",
+    "validation_ndcg_at_10": 0.7321268765198684,
+    "relative_gain": 0.0
+  },
+  {
+    "name": "full LambdaMART",
+    "features": "dense_similarity, word_title_tfidf_cosine, char_title_tfidf_cosine, word_richtext_tfidf_cosine, bm25_title, query_coverage, title_coverage, token_jaccard, exact_title_match, phrase_match, prefix_match, all_query_tokens_present, brand_match, color_match, numeric_match, query_token_count, title_token_count, token_length_ratio, character_length_ratio, description_coverage, character_similarity, partial_character_similarity, token_set_similarity, cross_encoder_rich_score",
+    "validation_ndcg_at_10": 0.8223244830373245,
+    "relative_gain": 0.12319941995055053
+  },
+  {
+    "name": "ablation: no dense feature",
+    "features": "word_title_tfidf_cosine, char_title_tfidf_cosine, word_richtext_tfidf_cosine, bm25_title, query_coverage, title_coverage, token_jaccard, exact_title_match, phrase_match, prefix_match, all_query_tokens_present, brand_match, color_match, numeric_match, query_token_count, title_token_count, token_length_ratio, character_length_ratio, description_coverage, character_similarity, partial_character_similarity, token_set_similarity, cross_encoder_rich_score",
+    "validation_ndcg_at_10": 0.822690131720858,
+    "relative_gain": 0.12369885344392478
+  },
+  {
+    "name": "ablation: semantic + length only",
+    "features": "dense_similarity, query_token_count, title_token_count, token_length_ratio, character_length_ratio",
+    "validation_ndcg_at_10": 0.736831777854018,
+    "relative_gain": 0.006426346969413435
+  }
+]

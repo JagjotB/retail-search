@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-09-01T15:24:15Z",
+  "status": "frozen",
+  "reason": "The frozen-test quality gate passed; no further metric optimization is authorized.",
+  "version": "esci-us-20260901T100019Z-b041ca46",
+  "configuration_sha256": "b041ca46ec74ba4e14e95c9536444e69511249adc2f4c4b8523b0478b1a6e3ec",
+  "split_manifest_sha256": "f3aa2fc470dfaabd6428e3be4ab62401d8db93412ddd85da6a0343c7fd08f23d",
+  "frozen_test": {
+    "queries": 8956,
+    "judgments": 181701,
+    "embedding_only_ndcg_at_10": 0.7390086950930491,
+    "reranker_ndcg_at_10": 0.8216537231665819,
+    "relative_ndcg_at_10_gain": 0.11183228103036989,
+    "reported_relative_improvement": "11.1832%"
+  },
+  "training_after_freeze": false
+}

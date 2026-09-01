@@ -1,0 +1,177 @@
+{
+  "amazon_reference_metric": {
+    "embedding_only_ndcg_at_10": 0.6029664654776751,
+    "gain_mapping": {
+      "C": 0.1,
+      "E": 1.0,
+      "I": 0.0,
+      "S": 0.01
+    },
+    "name": "Amazon Task-1 trec_eval gain NDCG@10 (separately reported)",
+    "reranker_ndcg_at_10": 0.7378111080704319
+  },
+  "configuration_hash": "b041ca46ec74ba4e14e95c9536444e69511249adc2f4c4b8523b0478b1a6e3ec",
+  "dataset": {
+    "dataset": "Amazon Shopping Queries (ESCI) US Task-1 reduced",
+    "invalid_rows_dropped": 0,
+    "judgments_per_query": {
+      "maximum": 188,
+      "p50": 16.0,
+      "p95": 40.0,
+      "queries_over_100": 3,
+      "queries_over_50": 102
+    },
+    "label_distribution": {
+      "C": 27189,
+      "E": 261527,
+      "I": 101447,
+      "S": 211191
+    },
+    "minimum_judgments": 600000,
+    "minimum_met": true,
+    "pre_filter_judgments": 601354,
+    "source_repository": "https://github.com/amazon-science/esci-data",
+    "source_revision": "main",
+    "splits": {
+      "test": {
+        "judgments": 181701,
+        "manifest_sha256": "fae4e4a814c7914c8c084f7e1d9977e71a7eecc19f4e459a4536407090cb2032",
+        "queries": 8956
+      },
+      "train": {
+        "judgments": 355587,
+        "manifest_sha256": "2cf26a8a391bdde288218d22302192e853cab549e5aa791d6293e5a55f20230e",
+        "queries": 17674
+      },
+      "validation": {
+        "judgments": 64066,
+        "manifest_sha256": "35570f361be19a23bb5abc552501a8d898664231f89703a56a34709e482c23c7",
+        "queries": 3214
+      }
+    },
+    "unique_products": 482105,
+    "unique_queries": 29844,
+    "valid_judgments": 601354
+  },
+  "generated_at": "2026-09-01T10:00:19.009072+00:00",
+  "git_commit": "83516d145b4657a07a473b4302f77dc3fafd60a4",
+  "metric_contract": {
+    "candidate_universe": "identical ESCI judged candidates for baseline and reranker",
+    "gain_mapping": {
+      "C": 1,
+      "E": 3,
+      "I": 0,
+      "S": 2
+    },
+    "primary": "mean query NDCG@10"
+  },
+  "model": {
+    "best_iteration": 104,
+    "cross_encoder": {
+      "repository": "cross-encoder/ms-marco-MiniLM-L4-v2",
+      "revision": "d19c7578cd190e674bda2b51052768e43b61e747",
+      "runtime": "OpenVINO FP16"
+    },
+    "demo_catalog_products": 12000,
+    "embedding": "TF-IDF + TruncatedSVD Latent Semantic Analysis",
+    "embedding_dimensions": 96,
+    "feature_importance": {
+      "all_query_tokens_present": 0.0,
+      "bm25_title": 0.011173958804393163,
+      "brand_match": 0.004462408113084517,
+      "char_title_tfidf_cosine": 0.021401158201871866,
+      "character_length_ratio": 0.008583228897215621,
+      "character_similarity": 0.016843411714285123,
+      "color_match": 0.0011509746565218652,
+      "cross_encoder_rich_score": 0.8033455851159476,
+      "dense_similarity": 0.0076138675401228725,
+      "description_coverage": 0.014588504964612416,
+      "exact_title_match": 0.0,
+      "numeric_match": 0.007437100036505302,
+      "partial_character_similarity": 0.018561398834996346,
+      "phrase_match": 0.0002623969785328562,
+      "prefix_match": 0.0015579791309769384,
+      "query_coverage": 0.004105545619783829,
+      "query_token_count": 0.008804855775878894,
+      "title_coverage": 0.0039971272554668496,
+      "title_token_count": 0.0226222675923305,
+      "token_jaccard": 0.005564525453828781,
+      "token_length_ratio": 0.007029176533537164,
+      "token_set_similarity": 0.013824300238296816,
+      "word_richtext_tfidf_cosine": 0.010623267352279796,
+      "word_title_tfidf_cosine": 0.006446961189530917
+    },
+    "feature_names": [
+      "dense_similarity",
+      "word_title_tfidf_cosine",
+      "char_title_tfidf_cosine",
+      "word_richtext_tfidf_cosine",
+      "bm25_title",
+      "query_coverage",
+      "title_coverage",
+      "token_jaccard",
+      "exact_title_match",
+      "phrase_match",
+      "prefix_match",
+      "all_query_tokens_present",
+      "brand_match",
+      "color_match",
+      "numeric_match",
+      "query_token_count",
+      "title_token_count",
+      "token_length_ratio",
+      "character_length_ratio",
+      "description_coverage",
+      "character_similarity",
+      "partial_character_similarity",
+      "token_set_similarity",
+      "cross_encoder_rich_score"
+    ],
+    "final_refit": "train+validation at the validation-selected iteration",
+    "ranker": "LightGBM LambdaMART",
+    "version": "esci-us-20260901T100019Z-b041ca46"
+  },
+  "quality_gate": {
+    "claim_eligible": true,
+    "minimum_relative_gain": 0.11,
+    "passed": true,
+    "relative_ndcg_at_10_gain": 0.11183228103036989
+  },
+  "schema_version": "1.0",
+  "split_manifest_hash": "f3aa2fc470dfaabd6428e3be4ab62401d8db93412ddd85da6a0343c7fd08f23d",
+  "systems": {
+    "embedding_only_baseline": {
+      "judgment_count": 181701,
+      "latency": {
+        "p50_ms": 14.432099997065961,
+        "p95_ms": 15.835329995752545,
+        "sample_queries": 200
+      },
+      "mrr_at_10": 0.9227604354977066,
+      "ndcg_at_10": 0.7390086950930491,
+      "query_count": 8956,
+      "recall_at_100": 1.0,
+      "recall_at_50": 0.9993523069667287
+    },
+    "two_stage_lambdamart": {
+      "judgment_count": 181701,
+      "latency": {
+        "p50_ms": 164.41459999623476,
+        "p95_ms": 183.552000009513,
+        "reranking_p50_ms": 148.83335000195075,
+        "reranking_p95_ms": 168.73672000292572,
+        "sample_queries": 200
+      },
+      "mrr_at_10": 0.9572453866167578,
+      "ndcg_at_10": 0.8216537231665819,
+      "query_count": 8956,
+      "recall_at_100": 1.0,
+      "recall_at_50": 0.9993878228708026
+    }
+  },
+  "validation": {
+    "embedding_only_ndcg_at_10": 0.7321268765198684,
+    "relative_gain": 0.12319941995055053,
+    "reranker_ndcg_at_10": 0.8223244830373245
+  }
+}

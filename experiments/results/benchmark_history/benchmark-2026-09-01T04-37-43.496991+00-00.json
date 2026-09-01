@@ -1,0 +1,150 @@
+{
+  "amazon_reference_metric": {
+    "embedding_only_ndcg_at_10": 0.6970655340797087,
+    "gain_mapping": {
+      "C": 3,
+      "E": 4,
+      "I": 1,
+      "S": 2
+    },
+    "name": "Amazon-compatible ESCI gain NDCG@10 (separately reported)",
+    "reranker_ndcg_at_10": 0.7679735273634309
+  },
+  "configuration_hash": "9a82450b78f53999d05946d8df8971400ea913202e733dd827ec8f8576f6ec4f",
+  "dataset": {
+    "dataset": "Amazon Shopping Queries (ESCI) US Task-1 reduced",
+    "invalid_rows_dropped": 0,
+    "label_distribution": {
+      "C": 27189,
+      "E": 261527,
+      "I": 101447,
+      "S": 211191
+    },
+    "minimum_judgments": 600000,
+    "minimum_met": true,
+    "pre_filter_judgments": 601354,
+    "source_repository": "https://github.com/amazon-science/esci-data",
+    "source_revision": "main",
+    "splits": {
+      "test": {
+        "judgments": 181701,
+        "manifest_sha256": "fae4e4a814c7914c8c084f7e1d9977e71a7eecc19f4e459a4536407090cb2032",
+        "queries": 8956
+      },
+      "train": {
+        "judgments": 355587,
+        "manifest_sha256": "2cf26a8a391bdde288218d22302192e853cab549e5aa791d6293e5a55f20230e",
+        "queries": 17674
+      },
+      "validation": {
+        "judgments": 64066,
+        "manifest_sha256": "35570f361be19a23bb5abc552501a8d898664231f89703a56a34709e482c23c7",
+        "queries": 3214
+      }
+    },
+    "unique_products": 482105,
+    "unique_queries": 29844,
+    "valid_judgments": 601354
+  },
+  "generated_at": "2026-09-01T04:37:43.496991+00:00",
+  "git_commit": "83516d145b4657a07a473b4302f77dc3fafd60a4",
+  "metric_contract": {
+    "candidate_universe": "identical ESCI judged candidates for baseline and reranker",
+    "gain_mapping": {
+      "C": 1,
+      "E": 3,
+      "I": 0,
+      "S": 2
+    },
+    "primary": "mean query NDCG@10"
+  },
+  "model": {
+    "best_iteration": 69,
+    "demo_catalog_products": 12000,
+    "embedding": "TF-IDF + TruncatedSVD Latent Semantic Analysis",
+    "embedding_dimensions": 96,
+    "feature_importance": {
+      "all_query_tokens_present": 0.007822047163583475,
+      "bm25_title": 0.18170064622013377,
+      "brand_match": 0.015094860092812414,
+      "character_length_ratio": 0.03670280229046622,
+      "color_match": 0.005577191425640578,
+      "dense_similarity": 0.024081994419997203,
+      "description_coverage": 0.10113689526408395,
+      "exact_title_match": 0.0,
+      "numeric_match": 0.08412232221492838,
+      "phrase_match": 0.00264099100053528,
+      "prefix_match": 0.009313343291632734,
+      "query_coverage": 0.3002003580731989,
+      "query_token_count": 0.01048055763290816,
+      "title_coverage": 0.01517482235448982,
+      "title_token_count": 0.03824031959810296,
+      "token_jaccard": 0.15623526855438952,
+      "token_length_ratio": 0.01147558040309665
+    },
+    "feature_names": [
+      "dense_similarity",
+      "bm25_title",
+      "query_coverage",
+      "title_coverage",
+      "token_jaccard",
+      "exact_title_match",
+      "phrase_match",
+      "prefix_match",
+      "all_query_tokens_present",
+      "brand_match",
+      "color_match",
+      "numeric_match",
+      "query_token_count",
+      "title_token_count",
+      "token_length_ratio",
+      "character_length_ratio",
+      "description_coverage"
+    ],
+    "ranker": "LightGBM LambdaMART",
+    "version": "esci-us-20260901T043743Z-9a82450b"
+  },
+  "quality_gate": {
+    "claim_eligible": false,
+    "minimum_relative_gain": 0.11,
+    "passed": false,
+    "relative_ndcg_at_10_gain": 0.06755770540554029
+  },
+  "schema_version": "1.0",
+  "split_manifest_hash": "f3aa2fc470dfaabd6428e3be4ab62401d8db93412ddd85da6a0343c7fd08f23d",
+  "systems": {
+    "embedding_only_baseline": {
+      "judgment_count": 181701,
+      "latency": {
+        "p50_ms": 13.380849995883182,
+        "p95_ms": 15.657039992220229,
+        "sample_queries": 200
+      },
+      "mrr_at_10": 0.9227604354977066,
+      "ndcg_at_10": 0.7390086950930491,
+      "query_count": 8956,
+      "recall_at_100": 1.0,
+      "recall_at_50": 0.9993523069667287
+    },
+    "two_stage_lambdamart": {
+      "judgment_count": 181701,
+      "latency": {
+        "p50_ms": 17.76534999953583,
+        "p95_ms": 23.006444994825866,
+        "reranking_p50_ms": 4.389850000734441,
+        "reranking_p95_ms": 7.337919995916308,
+        "sample_queries": 200
+      },
+      "mrr_at_10": 0.944025199033015,
+      "ndcg_at_10": 0.7889344268082781,
+      "query_count": 8956,
+      "recall_at_100": 1.0,
+      "recall_at_50": 0.999329521185669
+    }
+  },
+  "validation": {
+    "embedding_only_ndcg_at_10": 0.7321268765198684,
+    "relative_gain": 0.0786762806749804,
+    "reranker_ndcg_at_10": 0.7897278961466423
+  }
+}

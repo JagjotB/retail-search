@@ -1,0 +1,12 @@
+embedding:
+  type: lsa
+  description: TF-IDF word and bigram vectors projected to dense Latent Semantic Analysis embeddings
+  max_features: 40000
+  dimensions: 96
+  min_df: 2
+  max_fit_documents: 300000
+  random_state: 20260901
+index:
+  type: numpy_exact_cosine
+  candidate_depth: 100
+  demo_catalog_size: 12000

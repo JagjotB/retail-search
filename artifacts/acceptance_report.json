@@ -1,0 +1,57 @@
+{
+  "benchmark_generated_at": "2026-09-01T10:00:19.009072+00:00",
+  "checks": [
+    {
+      "criterion": "official_dataset_scale",
+      "evidence": "601354 judgments in data/processed/dataset_report.json",
+      "passed": true
+    },
+    {
+      "criterion": "query_safe_frozen_split",
+      "evidence": "data/processed/splits/*.json and benchmark split_manifest_hash",
+      "passed": true
+    },
+    {
+      "criterion": "embedding_only_baseline",
+      "evidence": "artifacts/benchmark.json systems.embedding_only_baseline",
+      "passed": true
+    },
+    {
+      "criterion": "learned_two_stage_reranker",
+      "evidence": "promoted LightGBM model manifest",
+      "passed": true
+    },
+    {
+      "criterion": "relative_ndcg_at_10_gain",
+      "evidence": "measured frozen-test relative gain=11.1832%",
+      "passed": true
+    },
+    {
+      "criterion": "api_contract",
+      "evidence": "tests/test_api.py and scripts/smoke_test.py",
+      "passed": true
+    },
+    {
+      "criterion": "containerization",
+      "evidence": "Dockerfile, docker-compose.yml, and validated Compose configuration",
+      "passed": true
+    },
+    {
+      "criterion": "docker_runtime_smoke",
+      "evidence": "artifacts/runtime_evidence.json; WSL2 Alpine 3.24.1; Docker Engine 29.5.3; Docker Compose 5.1.4",
+      "passed": true
+    },
+    {
+      "criterion": "airflow_retraining",
+      "evidence": "airflow/dags/retrain.py, tests/test_pipeline.py, and reduced lifecycle smoke",
+      "passed": true
+    },
+    {
+      "criterion": "demo_runtime_evidence",
+      "evidence": "docs/DEMO_EVIDENCE.md and docs/demo/*.png",
+      "passed": true
+    }
+  ],
+  "overall_passed": true,
+  "schema_version": "1.0"
+}

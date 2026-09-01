@@ -1,0 +1,3 @@
+This project uses the Amazon Shopping Queries Dataset (ESCI) as an optional downloaded benchmark.
+The dataset and source code are published by Amazon Science under the Apache License 2.0:
+https://github.com/amazon-science/esci-data
